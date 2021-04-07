@@ -17,4 +17,10 @@ There are some arguments in pre-defined functions.
   * given to analyze as perf 
 * run_algorithm:
   * return : perf : pd.DataFrame  
-             The daily performance of the algorithm. 
+             The daily performance of the algorithm.  
+    ```
+    metrics_set : iterable[Metric] or str, optional
+        The set of metrics to compute in the simulation. If a string is passed,
+        resolve the set with :func:`zipline.finance.metrics.load`.
+    
+    ```
