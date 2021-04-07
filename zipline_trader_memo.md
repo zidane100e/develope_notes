@@ -5,6 +5,6 @@ There are some arguments in pre-defined functions.
 
 ## functions
 * analyze : automatically called after the backtest is done.
-  * not sure backtest means run_algorithm or another function
+  * do not run by calling run_algorithm
 * record : record values each day
   * given to analyze as perf 
