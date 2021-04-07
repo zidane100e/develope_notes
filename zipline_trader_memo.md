@@ -18,6 +18,7 @@ There are some arguments in pre-defined functions.
 * run_algorithm:
   * return : perf : pd.DataFrame  
              The daily performance of the algorithm.  
+  * metrics : not sure metrics are attached to return-dataframe 'perf'
     ```
     metrics_set : iterable[Metric] or str, optional
         The set of metrics to compute in the simulation. If a string is passed,
