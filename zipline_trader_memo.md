@@ -27,8 +27,9 @@ There are some arguments in pre-defined functions.
     ```
     
 ## register new bundle
-Most explanations in web uses old-style registration.  
-put register function in extension.py and run ingest in command terminal.  
+Most explanations in web sites uses old-style registration,  
+putting register function in extension.py and run ingest in command terminal.  
+But zipline-trader, new version of zipline, recommends using notebooks methods.  
 Below are function call from jupyter notebook
 ```
 from zipline.data.bundles import ingest, load, register
